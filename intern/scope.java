@@ -1,5 +1,10 @@
+
 class Data{
     public String var = "global";
+
+    Data(){
+        System.out.println("Inside Data class constructor...");
+    }
     public void show(){
 
         System.out.println("Global value of var: "+var);
